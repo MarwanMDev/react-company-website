@@ -6,7 +6,7 @@ import FAQ from './FAQ';
 const FAQs = () => {
   return (
     <section className="faqs">
-      <div className="contaioner faqs_container">
+      <div className="container faqs_container">
         <SectionHead icon={<FaQuestion />} title="FAQs" />
         <div className="faqs__wrapper">
           {faqs.map(({ id, question, answer }) => {
