@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import Logo from '../images/logo.png';
-import { FaLinkedin, FaFacebook } from 'react-icons/fa';
+import { FaLinkedin, FaFacebookF } from 'react-icons/fa';
 import { AiOutlineTwitter, AiFillInstagram } from 'react-icons/ai';
 
 const Footer = () => {
@@ -30,7 +30,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <FaFacebook />
+              <FaFacebookF />
             </a>
             <a
               href="https://twitter.com"
@@ -69,11 +69,9 @@ const Footer = () => {
           <Link to="/contact">Contact Us</Link>
           <Link to="/s">Support</Link>
         </article>
-        <div className="footer__copyright">
-          <small>
-            2022 Marwan Mostafa &copy; All Rights Reserved
-          </small>
-        </div>
+      </div>
+      <div className="footer__copyright">
+        <small>2022 Marwan Mostafa &copy; All Rights Reserved</small>
       </div>
     </footer>
   );
