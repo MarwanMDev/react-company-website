@@ -43,7 +43,7 @@ const About = () => {
       </section>
 
       <section className="about__kstory">
-        <div className="container about__story-container">
+        <div className="container about__vision-container">
           <div className="about__section-content">
             <h1>Our Vision</h1>
             <p>
@@ -65,7 +65,7 @@ const About = () => {
       </section>
 
       <section className="about__kstory">
-        <div className="container about__story-container">
+        <div className="container about__mission-container">
           <div className="about__section-image">
             <img src={MissionImage} alt="MissionImage" />
           </div>
