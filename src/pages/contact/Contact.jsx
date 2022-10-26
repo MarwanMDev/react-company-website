@@ -14,8 +14,8 @@ const Contact = () => {
       </Header>
 
       <section className="contact">
-        <div className="container contact_container">
-          <div className="contact_wrapper">
+        <div className="container contact__container">
+          <div className="contact__wrapper">
             <a
               href="mailto:support@application.com"
               target="_blank"
