@@ -17,7 +17,7 @@ Responsive react website using css media queries, CSS variables for easy theme c
 
 ## Resources
 
-- [EdRoh]
+- [EGATOR]
 
 ---
 
